@@ -31,6 +31,7 @@ export interface Trader {
   monthlyReturns: MonthlyReturn[];
   skills: string[];
   languages: string[];
+  strategy: string;
 }
 
 export const traders: Trader[] = [
