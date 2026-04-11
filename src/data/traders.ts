@@ -31,6 +31,7 @@ export interface Trader {
   monthlyReturns: MonthlyReturn[];
   skills: string[];
   languages: string[];
+  strategy: string;
 }
 
 export const traders: Trader[] = [
@@ -68,6 +69,7 @@ export const traders: Trader[] = [
     ],
     skills: ["Technical Analysis", "Options Trading", "Risk Management", "Market Psychology"],
     languages: ["English", "Mandarin"],
+    strategy: "Combines multi-timeframe technical analysis with options flow data to identify swing trade setups with 2:1+ risk-reward ratios. Uses moving averages, RSI divergence, and volume profile for entries.",
   },
   {
     id: "sarah-williams",
@@ -103,6 +105,7 @@ export const traders: Trader[] = [
     ],
     skills: ["Forex Trading", "Scalping", "Price Action", "News Trading"],
     languages: ["English", "Spanish"],
+    strategy: "Focuses on 1-5 minute chart scalping on major forex pairs (EUR/USD, GBP/USD) using price action patterns, order flow analysis, and London/New York session overlaps for optimal liquidity.",
   },
   {
     id: "david-park",
@@ -138,6 +141,7 @@ export const traders: Trader[] = [
     ],
     skills: ["Python", "Algorithmic Trading", "Backtesting", "Machine Learning"],
     languages: ["English", "Korean"],
+    strategy: "Builds systematic, rules-based trading algorithms using Python. Strategies are backtested across 10+ years of data with Monte Carlo simulations for robustness before live deployment.",
   },
   {
     id: "raj-patel",
@@ -173,6 +177,7 @@ export const traders: Trader[] = [
     ],
     skills: ["Crypto Trading", "DeFi", "On-chain Analysis", "Portfolio Management"],
     languages: ["English", "Hindi"],
+    strategy: "Uses on-chain metrics (whale wallet tracking, exchange inflows/outflows) combined with macro sentiment analysis to time entries on BTC, ETH, and select altcoins with strict stop-losses.",
   },
   {
     id: "linda-okafor",
@@ -208,6 +213,7 @@ export const traders: Trader[] = [
     ],
     skills: ["Commodities", "Futures Trading", "Fundamental Analysis", "Position Trading"],
     languages: ["English", "French"],
+    strategy: "Position trading on commodities futures using fundamental supply-demand analysis, seasonal patterns, and COT (Commitment of Traders) report data for medium-term trend following.",
   },
   {
     id: "hans-mueller",
@@ -243,5 +249,6 @@ export const traders: Trader[] = [
     ],
     skills: ["Value Investing", "ETFs", "Dividend Strategies", "Portfolio Construction"],
     languages: ["English", "German"],
+    strategy: "Long-term value investing using discounted cash flow models, P/E ratio screening, and dividend yield analysis. Builds diversified ETF portfolios with quarterly rebalancing.",
   },
 ];

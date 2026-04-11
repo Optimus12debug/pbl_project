@@ -128,6 +128,12 @@ const Learning = () => {
                   </div>
                 </div>
 
+                {/* Strategy */}
+                <div className="px-6 pb-4">
+                  <p className="text-xs font-semibold text-muted-foreground mb-1">Strategy</p>
+                  <p className="text-xs text-foreground line-clamp-2">{trader.strategy}</p>
+                </div>
+
                 {/* Footer */}
                 <div className="px-6 py-4 border-t border-border flex items-center justify-between">
                   <div>
