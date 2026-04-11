@@ -69,6 +69,7 @@ export const traders: Trader[] = [
     ],
     skills: ["Technical Analysis", "Options Trading", "Risk Management", "Market Psychology"],
     languages: ["English", "Mandarin"],
+    strategy: "Combines multi-timeframe technical analysis with options flow data to identify swing trade setups with 2:1+ risk-reward ratios. Uses moving averages, RSI divergence, and volume profile for entries.",
   },
   {
     id: "sarah-williams",
