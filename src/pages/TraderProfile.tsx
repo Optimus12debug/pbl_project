@@ -96,6 +96,10 @@ const TraderProfile = () => {
               {trader.title}
             </p>
             <p className="text-muted-foreground mb-4">{trader.bio}</p>
+            <div className="p-4 rounded-xl bg-secondary/50 border border-border mb-4">
+              <p className="text-xs font-semibold text-primary mb-1">Trading Strategy</p>
+              <p className="text-sm text-foreground">{trader.strategy}</p>
+            </div>
             <div className="flex flex-wrap gap-2">
               {trader.skills.map((skill) => (
                 <Badge key={skill} variant="outline">
